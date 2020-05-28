@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorBg"
+    tools:context="com.example.change.messages.Register"
+    android:orientation="vertical"
+    android:id="@+id/layoutRegister"
+    android:gravity="center">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="30dp" />
+
+    <EditText
+        android:background="@drawable/edit_text_background"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <EditText
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <Button
+        android:background="@drawable/btn_background"
+        android:id="@+id/registerButton"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Sign Up" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Already Have An Account?"
+        android:textSize="20dp" />
+
+</LinearLayout>
